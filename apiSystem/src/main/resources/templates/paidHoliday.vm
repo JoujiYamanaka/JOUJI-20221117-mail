@@ -1,0 +1,20 @@
+これはテストメールです
+
+宛先： ${to} 様
+CC: ${cc} 様
+
+お疲れ様です。 ${applicantName} です。
+以下の通り、有給休暇を申請致します。
+
+・${holidayType}申請
+
+・実施日時： ${date}
+
+・事由： ${reason}
+
+・承認者： ${authorizer}
+
+・有給の際の連絡先： ${contact}
+
+・本申請後の残有休数： ${unusedPaidHolidays} 日
+以上、宜しくお願い致します。
