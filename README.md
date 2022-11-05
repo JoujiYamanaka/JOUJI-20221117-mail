@@ -7,7 +7,7 @@ mailへメッセージを送信するサンプルです
 
 ## Requirement
 * Java 11
-* Spring Boot Starter Parent 2.6.3
+* Spring Boot Starter Parent 2.7.5
 * Apache Commons Validator 1.4.0
 * Project Lombok
 
