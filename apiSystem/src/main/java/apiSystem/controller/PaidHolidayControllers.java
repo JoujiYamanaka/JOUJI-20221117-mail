@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import apiSystem.dto.ApplyPaidHolidaysDto;
 import apiSystem.service.MailService;
+import apiSystem.util.MessageSourceUtil;
 import apiSystem.util.ResponseEntityUtil;
 import lombok.RequiredArgsConstructor;
 
@@ -37,6 +38,6 @@ public class PaidHolidayControllers {
         // メール送信
         mailService.sendMail(applyPaidHolidaysDto);
 
-        return ResponseEntityUtil.setResponseEntity(null, HttpStatus.OK, HttpStatus.OK.name());
+        return ResponseEntityUtil.setResponseEntity(MessageSourceUtil.getMessage("mailSendSuccess"), HttpStatus.OK, HttpStatus.OK.name());
     }
 }
