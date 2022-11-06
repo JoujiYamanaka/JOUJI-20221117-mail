@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "df44ac8c-f107-4847-9d8b-381032885cd5",
+		"name": "APIサンプル",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16308068"
+	},
+	"item": [
+		{
+			"name": "1.有給休暇メール申請サンプル",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/paidHolidays/apply",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"paidHolidays",
+						"apply"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
