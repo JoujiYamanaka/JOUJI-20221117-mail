@@ -17,6 +17,9 @@ import org.apache.velocity.app.VelocityEngine;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 
+/**
+ * メールサービス
+ */
 @CommonsLog
 @Service
 @RequiredArgsConstructor

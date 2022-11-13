@@ -17,6 +17,9 @@ import apiSystem.util.MessageSourceUtil;
 import apiSystem.util.ResponseEntityUtil;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * 有給休暇コントローラー
+ */
 @RestController
 @RequestMapping(value="/paidHolidays")
 @RequiredArgsConstructor

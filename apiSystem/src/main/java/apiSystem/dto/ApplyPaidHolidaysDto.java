@@ -7,6 +7,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * 有給休暇申請Dto
+ */
 @Data
 @Builder
 @AllArgsConstructor
